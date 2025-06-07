@@ -1,7 +1,9 @@
+import OverCoffeeLanding from "./pages/OverCoffeeLanding.tsx";
+
 function App() {
 
   return (
-    <div>App</div>
+<OverCoffeeLanding/>
   )
 }
 
