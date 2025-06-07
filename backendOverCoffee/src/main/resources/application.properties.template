@@ -1,0 +1,9 @@
+spring.application.name=OverCoffeeBackend
+
+# PostgreSQL Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:{DATABASE_PORT}/{DATABASE_NAME}
+spring.datasource.username={USERNAME}
+spring.datasource.password={PASSWORD}
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
