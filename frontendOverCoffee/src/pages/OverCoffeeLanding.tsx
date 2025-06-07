@@ -1,4 +1,4 @@
-import React from "react";
+import { type FC } from "react";
 import logo from "/public/over_coffee_logo_1mb.jpg";
 import "./OverCoffeeLanding.css";
 
@@ -15,7 +15,7 @@ interface FeatureData {
   description: string;
 }
 
-const OverCoffeeLanding: React.FC = () => {
+const OverCoffeeLanding: FC = () => {
   // Features data
   const features: FeatureData[] = [
     {
