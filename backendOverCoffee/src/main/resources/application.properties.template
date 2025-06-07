@@ -1,6 +1,8 @@
 spring.application.name=OverCoffeeBackend
 
 # PostgreSQL Database Configuration
+
+# For local development, replace the placeholders with your actual database credentials.
 spring.datasource.url=jdbc:postgresql://localhost:{DATABASE_PORT}/{DATABASE_NAME}
 spring.datasource.username={USERNAME}
 spring.datasource.password={PASSWORD}
