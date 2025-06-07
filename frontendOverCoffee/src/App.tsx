@@ -1,10 +1,7 @@
 import OverCoffeeLanding from "./pages/OverCoffeeLanding.tsx";
 
 function App() {
-
-  return (
-<OverCoffeeLanding/>
-  )
+  return <OverCoffeeLanding />;
 }
 
-export default App
+export default App;
