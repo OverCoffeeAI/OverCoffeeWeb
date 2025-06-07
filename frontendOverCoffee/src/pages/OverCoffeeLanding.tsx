@@ -56,16 +56,6 @@ const OverCoffeeLanding: React.FC = () => {
 
     return (
         <>
-            {/* Bootstrap CSS */}
-            <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-            />
-            {/* Bootstrap Icons */}
-            <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
-            />
 
             <div data-bs-spy="scroll" data-bs-target=".navbar">
                 {/* Navbar */}
