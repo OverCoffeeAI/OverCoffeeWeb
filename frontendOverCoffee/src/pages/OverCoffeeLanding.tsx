@@ -1,5 +1,6 @@
 import { type FC } from "react";
 import logo from "/public/over_coffee_logo_1mb.jpg";
+import logo2 from "../assets/overCoffeeCreme.svg";
 import "./OverCoffeeLanding.css";
 
 // Types
@@ -269,7 +270,7 @@ const OverCoffeeLanding: FC = () => {
         <footer>
           <div className="container text-center">
             <img
-              src={logo}
+              src={logo2}
               alt="Over Coffee Logo"
               width="120"
               className="mb-2"
